@@ -1,0 +1,92 @@
+<link rel="stylesheet" href="style.css">
+<html><title>Arduino Digital Logic Library &mdash; Richard Martino's Website</title>
+<nav class="menu">
+<div class="nav-left">
+ <ul>
+    <li><a href="index.html"><img class="logo" src="favicon.png" alt="">richard martino</a></li>
+  </ul>
+</div>
+<div class="nav-right">
+ <ul>
+    <li><a href="mailto:richardmartino4@gmail.com">contact</a></li>
+    <li><a href="https://github.com/richardmartino">github</a></li>
+    <li><a href="https://twitter.com/richie_martino">twitter</a></li>
+    <li><a href="https://youtube.com/channel/UCO3TTCqh1BwdT16kkb8QhuA">videos</a></li>
+  </ul>
+</div>
+</nav>
+<h1 id="Arduino%20Digital%20Logic%20Library">Arduino Digital Logic Library</h1>
+
+<p>Dec. 2017 &#8211; Written: May 25th, 2020</p>
+
+<h2 id="Project%20Overview">Project Overview</h2>
+
+<p>In 2017 when I was taking Digital Logic at SUNY Ulster, I decided that I did not like writing the same code over and over again. In the lab class, we used Arduinos to simulate 74 series logic. The professor at the time said he did not want us to use code from online, and with his permission I used this library for my entire time in that class. This library was me learning how to code for microprocessors, it was the class that made me love microprocessors in the first place. Some things in it may not be what some would consider professional, but it worked for me and it really helped.</p>
+
+<h2 id="What%20This%20Library%20Is%20and%20What%20It%20Isn&amp;#39;t">What This Library Is and What It Isn&#39;t</h2>
+
+<p>This library is not the end-all be-all of digital logic libraries. Most of these things would be better off done in code without using functions. The library contains common functions and components (it was mostly used and designed to simulate 74 series logic) like XOR, AND, OR, NAND, SR-Latches, Latches, D-Latches, and many others. It even contains a simulation of a register.</p>
+
+<h2 id="How%20To%20Use%20the%20Library">How To Use the Library</h2>
+
+<p>See below some examples on how I originally used the library. I included the library by including a .ino sketch as that is how I originally made it. I didn&#39;t know a whole lot about in-depth programming practices back then, and I still don&#39;t now.</p>
+
+<pre><code>#include "C:&#47;path&#47;to&#47;file&#47;digital-logic-library.h"
+
+void setup(){
+&#47;&#47;stuff to run once
+}
+
+void loop (){
+&#47;&#47;stuff to run continuously
+}
+</code></pre>
+
+<p>Here is an example of using the the library, this is actually one of the 30 labs I had to do. The purpose of the lab was to make a four bit adder and send the ouput to one of four LEDs.</p>
+
+<pre><code>&#47;&#47;A NOTE: All comments are EX POST FACTO. This was the code from an actual lab I did in 2017.
+
+#include "C:&#47;users&#47;USER&#47;desktop&#47;FUNCTIONS&#47;FUNCTIONS.ino" &#47;&#47;I had this library called FUNCTIONS.ino at some point.
+
+void setup() {
+pinMode(2,INPUT); &#47;&#47;All the inputs were assigned to DIP switches on a bread board.
+pinMode(3,INPUT);
+pinMode(4,INPUT);
+pinMode(5,INPUT);
+pinMode(A0,INPUT);
+pinMode(A1,INPUT);
+pinMode(A2,INPUT);
+pinMode(A3,INPUT);
+pinMode(8,OUTPUT); &#47;&#47;All the outputs were sent to LEDs that were protected with 220 Ohm resistors at the ground.
+pinMode(9,OUTPUT);
+pinMode(10,OUTPUT);
+pinMode(11,OUTPUT);
+pinMode(12,OUTPUT);
+}
+
+void loop(){
+int a = digitalRead(2);
+int b = digitalRead(3);
+int c = digitalRead(4);
+int d = digitalRead(5);
+int e = digitalRead(A0);
+int f = digitalRead(A1);
+int g = digitalRead(A2);
+int h = digitalRead(A3);
+
+int carry_out,out1,out2,out3,out4; &#47;&#47;All the various carry outs for the four bit adder.
+
+FOURADD(d,c,b,a,h,g,f,e,&#38;carry_out,&#38;out1,&#38;out2,&#38;out3,&#38;out4);
+
+digitalWrite(8,carry_out); &#47;&#47;Writing the outputs to LEDs.
+digitalWrite(9,out1);
+digitalWrite(10,out2);
+digitalWrite(11,out3);
+digitalWrite(12,out4);
+}
+</code></pre>
+
+<h2 id="Download">Download</h2>
+
+<p>If you would like to use the library, you can download it from it&#39;s <a href="https://github.com/richardmartino/arduino-digital-logic-lib">GitHub repository</a>.</p>
+&copy; 2020 - Richard Martino</html>
