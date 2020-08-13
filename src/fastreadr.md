@@ -11,10 +11,10 @@ This is a program that uses Python and BeautifulSoup to analyze a webpage to gue
 
 ## Design
 There wasn't a lot of design behind this, I just found examples of how to use BS4, lxml and other transformation libraries online and compiled it into a small program to read a webpage and store it as plain text and count the words on it. Below you can see an example of using the program with CNN's main webpage.
-
+![fastreadr](img/fastreadr.png)
 
 ## GitHub Link and Final Thoughts
-This was a fun excercise in writing a program, I had an idea and I made it the way I wanted to. I may revisit this in the future implementing the ImageMagick/FFMPEG stuff and make a qt GUI for it. I am unsure though. This program is open source, check the GitHub page for it.
+This was a fun excercise in writing a program, I had an idea and I made it the way I wanted to. I may revisit this in the future implementing the ImageMagick/FFMPEG stuff and make a qt GUI for it. I am unsure though. This program is open source, check the [GitHub page](https://github.com/richardmartino/fastreadr) for it.
 
 Over and out,
 Richard

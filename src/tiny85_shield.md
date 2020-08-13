@@ -15,7 +15,7 @@ This is a programming breakout shield for the ATTiny85 AVR Microprocessor. All y
 ## Design
 This was the second major PCB I've designed and it was one of the first ones I've designed that worked without any issues. I used EasyEDA and a project template a user uploaded to make Arduino Uno shields. The board layout is simple, I've only included a reset button, an LED indicator light to show that the device is connected properly, an 8 pin DIP socket for the Tiny85 to be programmed and taken out, and some breakout pins connected to the socket. If you want to, you can test your program while it is connected to the programmer. See below a picture of the final design.
 
-[final t85 pcb design](img/t85pcb.jpeg)
+![final t85 pcb design](img/t85pcb.jpeg)
 
 ## GitHub Link and Final Thoughts
 Making this was fun and a cool first real PCB design project. I'd love to have other chips able to be programmed on this board, that would be a good idea for version 2 if I ever get around to doing that. I think this is a useful product and I may make a small batch and sell them. This design is open source, check the [Gitub page](https://github.com/richardmartino/TinyShieldV1) for it.

@@ -4,9 +4,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://richardmartino.me/index.html</loc><lastmod>2020-08-03</lastmod><priority>1.0</priority></url>
-<url><loc>https://richardmartino.me/fastreadr.html</loc><lastmod>2020-08-03</lastmod><priority>1.0</priority></url>
-<url><loc>https://richardmartino.me/linux_desk_firmware_pcbuild.html</loc><lastmod>2020-08-03</lastmod><priority>1.0</priority></url>
-<url><loc>https://richardmartino.me/tiny85_shield.html</loc><lastmod>2020-08-03</lastmod><priority>1.0</priority></url>
-<url><loc>https://richardmartino.me/arduino_digital_logic_lib.html</loc><lastmod>2020-08-03</lastmod><priority>1.0</priority></url>
+<url><loc>https://richardmartino.me/solar_car_charger.html</loc><lastmod>2020-08-13</lastmod><priority>1.0</priority></url>
+<url><loc>https://richardmartino.me/index.html</loc><lastmod>2020-08-13</lastmod><priority>1.0</priority></url>
+<url><loc>https://richardmartino.me/fastreadr.html</loc><lastmod>2020-08-13</lastmod><priority>1.0</priority></url>
+<url><loc>https://richardmartino.me/linux_desk_firmware_pcbuild.html</loc><lastmod>2020-08-13</lastmod><priority>1.0</priority></url>
+<url><loc>https://richardmartino.me/tiny85_shield.html</loc><lastmod>2020-08-13</lastmod><priority>1.0</priority></url>
+<url><loc>https://richardmartino.me/arduino_digital_logic_lib.html</loc><lastmod>2020-08-13</lastmod><priority>1.0</priority></url>
 </urlset>
