@@ -11,3 +11,8 @@ I love tinkering and making things. This website is home to my repository of cre
 - [fastreadr, Webpage Analyzer](fastreadr.html)
 - [ATTiny85 Arduino Programming Shield](tiny85_shield.html)
 - [Arduino Digital Logic Library](arduino_digital_logic_lib.html)
+
+## Services I Offer
+- [Hudson Valley Freelance Electronic Product Development](freelancing.html)
+- [Hudson Valley Freelance IT Consulting](it_consulting.html)
+- [Hudson Valley Freelance Business Website Development](business_websites.html)
