@@ -1,0 +1,65 @@
+<link rel="stylesheet" href="style.css">
+<html><title>Wearable RFID Reader Freelance Project &mdash; Richard Martino's Website</title>
+<nav class="menu">
+<div class="nav-left">
+ <ul>
+    <li><a href="index.html"><img class="logo" src="favicon.png" alt="">richard martino</a></li>
+  </ul>
+</div>
+<div class="nav-right">
+ <ul>
+    <li><a href="mailto:richardmartino4@gmail.com">contact</a></li>
+    <li><a href="https://github.com/richardmartino">github</a></li>
+    <li><a href="https://twitter.com/richie_martino">twitter</a></li>
+    <li><a href="https://youtube.com/channel/UCO3TTCqh1BwdT16kkb8QhuA">videos</a></li>
+  </ul>
+</div>
+</nav>
+<h1 id="Wearable%20RFID%20Reader%20Freelance%20Project">Wearable RFID Reader Freelance Project</h1>
+
+<p>Written: December 13th, 2020 &#47;&#47; Designed: December 2019 - May 2020</p>
+
+<h2 id="Project%20Introduction">Project Introduction</h2>
+
+<p>During my final semester as an Undergrad student at SUNY New Paltz I decided to take up a freelance job. I was hired by a startup in California to design and write firmware for a wireless RFID reader. It was intended to be a wearable IoT device and was to communicate contents of a passive tag to a phone app.</p>
+
+<h2 id="Design">Design</h2>
+
+<p>I did the initial prototype to write the firmware on a breadboard with an Arduino Uno. I decided to use Arduino because of the bootloader and as it was my first freelance project, I wanted to make sure I could actually get it done.</p>
+
+<p>After the initial firmware was sorted, I moved onto making a prototype on a piece of protostrip. The first protostrip prototoype was a complete mess (see a pic of it below). I did not have the right type of wire to wire it up properly – I used wire wrap wire and a standard protoboard.</p>
+
+<p>[pic of bad prototype]</p>
+
+<p>I learned my lesson quickly on that one and bought some protostrip boards, the ones with the connected plated through holes and made a better prototype.</p>
+
+<h3 id="Prototype%201">Prototype 1</h3>
+
+<p>Using that protostrip made things much easier. Like the previous botched version, I had socketed a DIP version of the ATMega328P and I had added an external crystal oscillator as SPI&#47;I2C and UART were being used in this application. If I werent using high speed interfaces I would probably have not added it.</p>
+
+<p>[pic of protostrip]</p>
+
+<h3 id="Prototype%202%20%E2%80%93%20First%20Manufactured%20PCB">Prototype 2 – First Manufactured PCB</h3>
+
+<p>As with all newbies, I sure made mistakes (which were expected and planned for!). This project was the fourth PCB I designed, the three were related to my capstone project for my Bachelor&#39;s degree. As with the previous PCBs, I designed this one in EasyEDA.</p>
+
+<p>I had ordered the first PCB from OshPark and it had arrived within four days of the deadline for that milestone. It had a few issues, namely being the power switch not working and forgetting the reset line for the ICSP. Other then those issues, a few ineffiencies with the power management, and the USB power source not working, it worked okay-ish. It needed revison for sure. (see below the perfect purple PCB)</p>
+
+<p>[purple pcb]</p>
+
+<h3 id="Final%20Prototype%20%E2%80%93%20JLCPCB">Final Prototype – JLCPCB</h3>
+
+<p>Somehow for the last prototype I made I managed to make it worse…. of course! I had only fixed two of the four issues mentioned before and I had managed to make the power switch issue worse. To add to my oversights and make matters worse, not only was the PCB was extremely delayed, I had forgot to mention to the client that the device needed to get FCC approval. It took 9 days to get assembled and 21 days in total for the PCB to get to the US.</p>
+
+<p>[final pcb]</p>
+
+<p>My oversights were not fatal, however. FCC testing and approval can cost upwards of $10,000 and that is what led to a mutual end of this project.</p>
+
+<h2 id="Lessons%20Learned">Lessons Learned</h2>
+
+<p>I learned more from this project than my last two years at SUNY New Paltz, that&#39;s for sure. This project had it all, design automation, schematic capture, firmware design, SMT assembly, rapid prototyping, you know – all the buzzwords a person can mention.</p>
+
+<p>I can say for sure that if I had not gone with the iterative design method it would turned out to be a complete failure. While I didn&#39;t finish the job, I was happy with the results. I learned to plan for my mistakes and communicate potential risks before they happen. I look forward to the next project like always.</p>
+
+<p>Over and out, Richard</p>
+&copy; 2020 - Richard Martino</html>

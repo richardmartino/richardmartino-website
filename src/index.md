@@ -5,6 +5,7 @@ I'm an Electrical Engineer from Ulster County, New York in the Lower Hudson Vall
 I love tinkering and making things. This website is home to my repository of creations and projects. Occasionally I will post about what I do, what I make, and the things I am interested in.
 
 ## Articles
+- [Wearable RFID IoT Device](wearable_rfid.html)
 - [Solar Car Battery Charger](solar_car_charger.html)
 - [Switched to Linux, New Desk, PC Build, New Printer Firmware](linux_desk_firmware_pcbuild.html)
 - [fastreadr, Webpage Analyzer](fastreadr.html)
